@@ -11,7 +11,7 @@ class RegisterView(APIView):
 
         if data.is_valid():
             data.save()   
-            return Response({"User created successfully"})
+            return Response({"User created"})
         return Response(data.errors)
 
 class LoginView(APIView):
