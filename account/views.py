@@ -18,7 +18,7 @@ class LoginView(APIView):
 
     def post(self, request):
         serializer = LoginSerializer(data=request.data)
-
+        breakpoint()
         if serializer.is_valid():
             return Response(serializer.validated_data)
 
