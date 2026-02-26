@@ -1,3 +1,4 @@
 envior/
 .pyc
-
+__pycache__
+.py*
