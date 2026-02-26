@@ -3,4 +3,6 @@ from rest_framework.permissions import IsAuthenticated
 from models import Blog
 from serializers import BlogSerializer
 
+class Registerview():
+    pass
 
